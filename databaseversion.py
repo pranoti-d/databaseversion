@@ -262,8 +262,8 @@ app.layout = html.Div([
         [
             dcc.Graph(id='example-graph',
                               #animate=True, 
-                              style={'margin-top': '20'},
-                               config={'displayModeBar': False}
+                              style={'margin-top': '20'}
+                              #,config={'displayModeBar': False}
                      )
         ], className='row'
          ),
