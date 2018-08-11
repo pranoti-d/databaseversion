@@ -275,7 +275,9 @@ app.layout = html.Div([
 
 @app.callback(
     dash.dependencies.Output('example-graph', 'figure'),
-    [dash.dependencies.Input('chart_type', 'value'),
+    [dash.dependencies.Input('x_axis', 'value'),
+     dash.dependencies.Input('y_axis', 'value'),
+     dash.dependencies.Input('chart_type', 'value'),
     ])
 def update_output(x_axis, y_axis, chart_type):
     dataPanda = select_chart(x_axis,y_axis,chart_type)
