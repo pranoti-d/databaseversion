@@ -1,6 +1,8 @@
 from app import server
 from app import app
 from app.models import test_data_dummy_data
+import React from 'react'
+
 
 import dash
 import dash
