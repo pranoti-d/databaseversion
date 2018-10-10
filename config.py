@@ -3,7 +3,7 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 
 
 class Config(object):
-    MYSQL_HOST = 't'
+    MYSQL_HOST = ''
     MYSQL_USER = ''
     MYSQL_PASSWORD = 'xxxxxxx'
     MYSQL_DB = ''
